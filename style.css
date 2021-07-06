@@ -6,7 +6,7 @@ body{
 }
 .h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
     color: rgb(126, 116, 116);
 }
@@ -18,12 +18,50 @@ body{
     color: rgb(104, 91, 91);
     padding-bottom: 15px;
 }
+.bottom-T{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(26, 24, 24);
+    padding-bottom: 15px;
+}
+.bottom-T{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(26, 24, 24);
+    padding-bottom: 15px;
+}
+.bottom-width img{
+width: 100%;
+}
+.mid-h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(98, 89, 89);
+    padding-bottom: 15px;
+}
+.mid-para{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(14, 12, 12);
+    padding-bottom: 15px;
+}
+.bottom-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: rgb(182, 159, 159);
+    padding-bottom: 15px;
+}
 .link-button{
     text-decoration: none; /*remove under-line from anchor*/
-    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%); /*(Hire me) image has background color*/
+    background-image: linear-gradient( #FBA24F -7.64%, #FF1E1E 145.94%); /*(Hire me) image has background color*/
     color: white; /* change the tex*/
     font-weight: 700;
-    padding: 17px 27px; /*it will increase the size of the (hire me) box size*/
+    padding: 20px 30px; /*it will increase the size of the (hire me) box size*/
     border-radius: 100px;
 }
 .flexible-container{
@@ -32,11 +70,76 @@ body{
 .half-width{
     width: 100%;
     padding-left: 15%;  /*Use padding-left to make a distance between (heading para) and image*/
-    padding-top: 5%;   
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-position: center;
+  
 }
 .half-width img{
-    width: 90%;
+    width: 70%;
 }
 .top-banner{
-    background-image: url(7.png);
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+}
+.mid-banner{
+    background-image: url(Frame57.jpg);
+    background-repeat: no-repeat;
+}
+.bottom-top-banner{
+    background-image: url();
+    background-repeat: no-repeat;
+}
+.botton-banner{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    margin-top: 100px;
+}
+.experience-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-top: 1%;
+    padding-right: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px  gray;
+    
+}
+.e-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-top: 1%;
+    padding-right: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px  gray;
+    
+}
+.footer-p {
+    text-align: center;
+}
+.footer{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(182, 153, 153);
+    padding-bottom: 15px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 60%;
+    margin-top: 250px;
+    margin-left: 35%;
+    margin-right: 25%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px  gray;
+    text-indent: 50px;
+    transform: translate(-15%, -50%);
+    
 }
