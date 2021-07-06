@@ -7,11 +7,10 @@ body{
 .h1{
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 550;
     color: rgb(126, 116, 116);
 }
 .h2{
-    
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -63,6 +62,7 @@ body{
     font-weight: 700;
     padding: 20px 30px; /*it will increase the size of the (hire me) box size*/
     border-radius: 100px;
+    box-shadow: 10px 10px 40px  rgb(216, 134, 134);
 }
 .flexible-container{
     display: flex;
@@ -90,7 +90,7 @@ body{
     background-image: url();
     background-repeat: no-repeat;
 }
-.botton-banner{
+.bottom-banner{
     margin: 0%;
     padding: 0%;
     background-color: black;
@@ -104,8 +104,7 @@ body{
     padding-top: 1%;
     padding-right: 10px;
     border-radius: 20px;
-    box-shadow: 10px 10px 40px  gray;
-    
+    box-shadow: 10px 10px 40px  gray;   
 }
 .e-item{
     width: 50%;
@@ -115,8 +114,7 @@ body{
     padding-top: 1%;
     padding-right: 10px;
     border-radius: 20px;
-    box-shadow: 10px 10px 40px  gray;
-    
+    box-shadow: 10px 10px 40px  gray;   
 }
 .footer-p {
     text-align: center;
@@ -140,10 +138,72 @@ body{
     border-radius: 10px;
     box-shadow: 10px 10px 40px  gray;
     text-indent: 50px;
-    transform: translate(-15%, -50%);
-    
+    transform: translate(-15%, -50%);   
 }
 /* Extra work*/
-.navbar{
-    
+.nav{
+    width: 40%;
+    height: 60%;
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 25%;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(246, 242, 242);
+    box-shadow: 10px 10px 40px  rgb(250, 249, 249);
+    text-indent: 60px;
+    transform: translate(-10%, -50%);
+}
+.nav-container{
+    display: flex;
+    text-decoration: none;
+    color: rgb(233, 17, 17) rgb(194, 59, 35);
+}
+.about-me{
+    margin: top 30px;
+    background-color: gray;
+    font-weight: 400;
+    font-size: 30px;
+}
+.mid-button{
+    height: 60%;
+    margin-bottom: 10%;
+    text-decoration: none; /*remove under-line from anchor*/
+    background-image: linear-gradient( #FBA24F -7.64%, #FF1E1E 145.94%); /*(Hire me) image has background color*/
+    color: white; /* change the tex*/
+    font-weight: 700;
+    padding: 20px 30px; /*it will increase the size of the (hire me) box size*/
+    border-radius: 100px;
+    box-shadow: 10px 10px 40px  rgb(160, 155, 155);
+}
+.comment{
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+}
+.checked {
+    color: orange;
+  }
+.Log-in{
+    background: tomato;
+}
+.name-id{
+    color: skyblue;
+}
+.input{
+    font: small-caption;
+    font-size: 15px;
+}
+.signup-button{
+    color: white;
+    background-color: slateblue;
+    border-radius: 10px;
+}
+.social-media{
+    padding-left:48%;
+    padding-top: 2%;
+}
+#forget-pass{
+    color: slategrey;
+    font-size: 30px;
 }
