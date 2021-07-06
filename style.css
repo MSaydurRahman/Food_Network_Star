@@ -33,7 +33,7 @@ body{
     padding-bottom: 15px;
 }
 .bottom-width img{
-width: 100%;
+    width: 100%;
 }
 .mid-h2{
     font-family: 'Poppins', sans-serif;
@@ -141,5 +141,9 @@ width: 100%;
     box-shadow: 10px 10px 40px  gray;
     text-indent: 50px;
     transform: translate(-15%, -50%);
+    
+}
+/* Extra work*/
+.navbar{
     
 }
